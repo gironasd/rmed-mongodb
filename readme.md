@@ -12,14 +12,10 @@
     - Inside the repository you will find the file docker-compose.yml, in this file you will find the necessary configuration to install the docker container. 
 
 * Commands to raise the docker container in Linux
-    - sudo su
-    * to have all the permissions
-    - service mongod stop
-    * the mongod service must be stopped before lifting the container.
-    - service docker start
-    * you must start the docker service
-    - docker-compose up
-    *Use this command inside the repository folder. This will start the container and start downloading the mongodb image with its respective credentials. 
+    - sudo su * to have all the permissions
+    - service mongod stop * the mongod service must be stopped before lifting the container.
+    - service docker start * you must start the docker service
+    - docker-compose up *Use this command inside the repository folder. This will start the container and start downloading the mongodb image with its respective credentials. 
 
 * Raise the container on Windows
     - Start docker desktop
